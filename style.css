@@ -447,6 +447,61 @@ h1 {
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
+.local-payments {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+}
+
+.local-payments h4 {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+    color: var(--text-main);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.local-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.local-card {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 1.2rem;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    transition: all 0.3s;
+}
+
+.local-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+    transform: scale(1.02);
+}
+
+.local-card .operator {
+    font-size: 0.7rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.6;
+}
+
+.local-card .number {
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: var(--text-main);
+}
+
+.local-card.mtn { border-left: 4px solid #FFCC00; }
+.local-card.orange { border-left: 4px solid #FF6600; }
+.local-card.moov { border-left: 4px solid #009639; }
+.local-card.wave { border-left: 4px solid #1DA1F2; }
+
 .author-note {
     margin-top: 2.5rem;
     padding-left: 1.5rem;
