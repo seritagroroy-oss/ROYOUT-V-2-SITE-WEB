@@ -30,7 +30,7 @@ const Navbar = () => {
               <div className="dropdown-menu">
                 <a href="#" target="_blank" rel="noreferrer"><FaYoutube size={16}/> YouTube</a>
                 <a href="#" target="_blank" rel="noreferrer"><FaFacebook size={16}/> Facebook</a>
-                <a href="#" target="_blank" rel="noreferrer"><FaUsers size={16}/> Groupe WhatsApp</a>
+                <a href="https://chat.whatsapp.com/Lvz6ScCPkOg6EjGlrX9pP9" target="_blank" rel="noreferrer"><FaUsers size={16}/> Groupe WhatsApp</a>
                 <a href="https://whatsapp.com/channel/0029VbCS9BhGufIn5JrmVc1R" target="_blank" rel="noreferrer"><FaWhatsapp size={16}/> Chaîne WhatsApp</a>
               </div>
             )}
