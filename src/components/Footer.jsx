@@ -1,11 +1,33 @@
+import { Play, Share2, MessageCircle, Users } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="container footer-content">
-        <p>&copy; {new Date().getFullYear()} RoYout - Le téléchargement, simplifié.</p>
-        <p>Conçu avec passion par <span className="author-name">SERI TAGRO ROY</span></p>
+    <footer className="footer-modern">
+      <div className="container footer-grid">
+        <div className="footer-brand">
+          <div className="logo-footer">
+            <img src="/assets/logo.png" alt="RoYout Logo" />
+            <span>RoYout</span>
+          </div>
+          <p className="footer-slogan">Le téléchargement, simplifié.</p>
+          <p className="footer-author">Conçu avec passion par <span className="author-name">SERI TAGRO ROY</span></p>
+        </div>
+        
+        <div className="footer-community">
+          <h3>Rejoindre notre communauté</h3>
+          <p>Restez informé des dernières mises à jour et nouveautés !</p>
+          <div className="social-links">
+            <a href="#" target="_blank" rel="noreferrer" className="social-icon yt" title="YouTube"><Play size={20} /></a>
+            <a href="#" target="_blank" rel="noreferrer" className="social-icon fb" title="Facebook"><Share2 size={20} /></a>
+            <a href="#" target="_blank" rel="noreferrer" className="social-icon wa-group" title="Groupe WhatsApp"><Users size={20} /></a>
+            <a href="https://whatsapp.com/channel/0029VbCS9BhGufIn5JrmVc1R" target="_blank" rel="noreferrer" className="social-icon wa-channel" title="Chaîne WhatsApp"><MessageCircle size={20} /></a>
+          </div>
+        </div>
+      </div>
+      
+      <div className="footer-bottom">
+        <p>&copy; {new Date().getFullYear()} RoYout. Tous droits réservés.</p>
       </div>
     </footer>
   );
