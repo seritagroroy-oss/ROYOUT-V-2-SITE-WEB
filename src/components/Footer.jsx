@@ -19,7 +19,7 @@ const Footer = () => {
           <p>Restez informé des dernières mises à jour et nouveautés !</p>
           <div className="social-links">
             <a href="https://www.youtube.com/@Tuto-Days" target="_blank" rel="noreferrer" className="social-icon yt" title="YouTube"><FaYoutube size={20} /></a>
-            <a href="#" target="_blank" rel="noreferrer" className="social-icon fb" title="Facebook"><FaFacebook size={20} /></a>
+            <a href="https://www.facebook.com/profile.php?id=61570719261860" target="_blank" rel="noreferrer" className="social-icon fb" title="Facebook"><FaFacebook size={20} /></a>
             <a href="https://chat.whatsapp.com/Lvz6ScCPkOg6EjGlrX9pP9" target="_blank" rel="noreferrer" className="social-icon wa-group" title="Groupe WhatsApp"><FaUsers size={20} /></a>
             <a href="https://whatsapp.com/channel/0029VbCS9BhGufIn5JrmVc1R" target="_blank" rel="noreferrer" className="social-icon wa-channel" title="Chaîne WhatsApp"><FaWhatsapp size={20} /></a>
           </div>
