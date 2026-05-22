@@ -1,0 +1,77 @@
+.navbar {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+  background: rgba(5, 5, 5, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 36px;
+  height: 36px;
+  filter: drop-shadow(0 0 8px rgba(255, 0, 68, 0.5));
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.nav-links a:not(.btn-small) {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: color 0.3s;
+  position: relative;
+}
+
+.nav-links a:not(.btn-small):hover {
+  color: var(--text-main);
+}
+
+.nav-links a:not(.btn-small)::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: var(--primary-gradient);
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+.nav-links a:not(.btn-small):hover::after {
+  width: 100%;
+}
+
+@media (max-width: 968px) {
+  .nav-links {
+    display: none; /* In a full app we'd add a mobile menu, keeping it simple for now */
+  }
+}
