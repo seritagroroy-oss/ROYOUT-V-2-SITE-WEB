@@ -60,3 +60,18 @@
   font-size: 1rem;
   line-height: 1.7;
 }
+
+@media (max-width: 480px) {
+  .faq-section {
+    padding: 4rem 0;
+  }
+  
+  .faq-summary {
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+  }
+  
+  .faq-content p {
+    padding: 0 1.2rem 1.2rem 1.2rem;
+  }
+}
