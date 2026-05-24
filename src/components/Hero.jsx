@@ -39,7 +39,7 @@ const Hero = () => {
               <Download size={20} />
               Télécharger pour Windows
             </a>
-            <span className="version">Version 1.0.0 • Gratuit</span>
+            <span className="version">Version 1.2.0 • Gratuit</span>
           </motion.div>
         </motion.div>
 
