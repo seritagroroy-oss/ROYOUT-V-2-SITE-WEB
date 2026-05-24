@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
 
           <a href="#support">Soutenir</a>
-          <a href="https://github.com/seritagroroy-oss/ROYOUT-V2/releases/download/v1.0/RoYout_Setup.exe" className="btn-small">
+          <a href="https://github.com/seritagroroy-oss/ROYOUT-V2/releases/download/v1.2.0/RoYout_Setup.exe" className="btn-small">
             <Download size={16} style={{ display: 'inline', marginRight: '5px', verticalAlign: 'text-bottom' }} />
             Télécharger
           </a>

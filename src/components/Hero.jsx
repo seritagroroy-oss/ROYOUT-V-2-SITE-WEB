@@ -35,7 +35,7 @@ const Hero = () => {
             Téléchargez vos vidéos YouTube préférées en haute qualité, instantanément et gratuitement. Pas de pub, pas de fioritures.
           </motion.p>
           <motion.div className="hero-btns" variants={itemVariants}>
-            <a href="https://github.com/seritagroroy-oss/ROYOUT-V2/releases/download/v1.0/RoYout_Setup.exe" className="btn-primary">
+            <a href="https://github.com/seritagroroy-oss/ROYOUT-V2/releases/download/v1.2.0/RoYout_Setup.exe" className="btn-primary">
               <Download size={20} />
               Télécharger pour Windows
             </a>
